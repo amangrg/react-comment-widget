@@ -1,0 +1,74 @@
+.App {
+  font-family: sans-serif;
+  margin-left: 10px;
+}
+
+.Heading {
+  font-size: 28px;
+}
+
+.Input {
+  width: 90%;
+  height: 28px;
+  padding: 8px;
+}
+
+.AddComment {
+  width: 120px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background-color: #006dff;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.AddComment:disabled {
+  background-color: #e0e0e0;
+  color: #666666;
+  cursor: no-drop;
+}
+
+.CommentContainer {
+  padding-bottom: 12px;
+}
+
+.RepliesContainer {
+  margin-left: 20px;
+  border-left: 1px sold grey;
+}
+
+.ButtonDelete {
+  border: 1px solid #f82121;
+  border-radius: 4px;
+  background-color: white;
+  margin-left: 8px;
+  color: #f82121;
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.ButtonReply {
+  border: 1px solid #006dff;
+  border-radius: 4px;
+  background-color: white;
+  margin-left: 8px;
+  color: #006dff;
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.ButtonReply:disabled {
+  background-color: #e0e0e0;
+  border: 1px solid #8d8d8d;
+  color: #868686;
+  cursor: no-drop;
+}
+
+.CommentReplyInput {
+  margin-top: 12px;
+}
